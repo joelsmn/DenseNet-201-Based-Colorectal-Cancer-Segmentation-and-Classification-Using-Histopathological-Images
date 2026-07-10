@@ -1,0 +1,48 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv*/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model/output artifacts
+RESULTS/
+SAVED_MODELS/
+LOGS/
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Dataset/image assets (exclude common raw-data folders)
+**/EBHI-SEG/**
+**/data/**
+**/datasets/**
+**/dataset/**
+**/images/**
+**/imgs/**
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.svs
