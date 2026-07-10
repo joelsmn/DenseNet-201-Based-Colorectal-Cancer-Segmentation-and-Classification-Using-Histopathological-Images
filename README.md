@@ -14,6 +14,8 @@ The project is designed to:
 
 The dataset is expected to be stored locally outside the repository, so the codebase stays lightweight and Git-friendly.
 
+EBHI-SEG Dataset link - https://www.kaggle.com/datasets/orvile/ebhi-seg-colorectal-cancer/data
+
 ## Project workflow
 
 1. Preprocess the images
