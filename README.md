@@ -14,11 +14,13 @@ The project is designed to:
 
 The dataset is expected to be stored locally outside the repository, so the codebase stays lightweight and Git-friendly.
 
+EBHI-SEG Dataset link - https://www.kaggle.com/datasets/orvile/ebhi-seg-colorectal-cancer/data
+
 ## Project workflow
 
 1. Preprocess the images
-2. Augment and balance the classes
-3. Split the data into train/validation/test sets
+2. Split the data into train/validation/test sets
+3. Augment and balance the classes
 4. Train a segmentation network
 5. Train classification models
 6. Evaluate performance and save outputs
