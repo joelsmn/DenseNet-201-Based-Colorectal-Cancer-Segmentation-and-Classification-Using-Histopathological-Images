@@ -1,4 +1,4 @@
-# Virtual environments
+﻿# Virtual environments
 venv/
 .venv/
 env/
@@ -16,9 +16,6 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Jupyter/IPython
-.ipynb_checkpoints/
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -32,7 +29,7 @@ LOGS/
 *.ckpt
 *.bin
 
-# Dataset/image assets (exclude common raw-data folders)
+# Dataset/image assets
 **/EBHI-SEG/**
 **/data/**
 **/datasets/**
